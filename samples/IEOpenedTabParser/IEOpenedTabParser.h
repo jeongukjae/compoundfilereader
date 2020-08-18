@@ -4,11 +4,11 @@
     They are compound file.
 */
 
-#include <compoundfilereader.h>
-#include <utf.h>
-
 #include <string>
 #include <vector>
+
+#include "compoundfilereader.h"
+#include "utf.h"
 
 struct OPENED_TAB_INFO {
   std::wstring url;

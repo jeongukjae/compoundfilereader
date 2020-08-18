@@ -1,16 +1,15 @@
-#include <stdint.h>
-#include <utf.h>
-#include <wchar.h>
-
 #include <algorithm>
 #include <clocale>
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <cwchar>
 #include <memory>
 #include <string>
 
 #include "IEOpenedTabParser.h"
+#include "utf.h"
 
 using namespace std;
 

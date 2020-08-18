@@ -1,11 +1,11 @@
-#include <compoundfilereader.h>
-#include <stdio.h>
-#include <string.h>
-#include <utf.h>
-
+#include <cstdio>
+#include <cstring>
 #include <iomanip>
 #include <iostream>
 #include <memory>
+
+#include "compoundfilereader.h"
+#include "utf.h"
 
 using namespace std;
 
