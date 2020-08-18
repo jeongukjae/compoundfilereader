@@ -1,3 +1,12 @@
+# UPDATES
+
+- change build system to cmake from single makefile
+- add clang-fomat
+- remove vsproject files
+- add include guard to `compoundfilereader.h`
+
+---
+
 # compoundfilereader
 
 simple standalone c++ header file to read compound file (Structured Storage File) content.
