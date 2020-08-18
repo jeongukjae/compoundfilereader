@@ -36,3 +36,6 @@ out/
 *.opensdf
 *.opendb
 *.VC.db
+
+# build directory
+build
