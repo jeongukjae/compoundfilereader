@@ -29,13 +29,14 @@
 */
 #pragma once
 
-#include <stdint.h>
-#include <string.h>
+#include <cstdint>
+#include <cstring>
 
 #include <algorithm>
 #include <exception>
 #include <functional>
 #include <stdexcept>
+#include "utf.h"
 
 namespace CFB {
 struct CFBException : public std::runtime_error {
